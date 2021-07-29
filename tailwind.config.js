@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      logo: ["logo-font"],
+      k2d: ["k2d"],
+      rubik: ["rubik"],
+      fugaz: ["fugaz"]
+    },
     container: {
       center: true,
       padding: "1rem",
